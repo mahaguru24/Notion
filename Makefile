@@ -30,3 +30,7 @@ restart:
 
 jumpin:
 	cd backend && docker-compose exec ${app} bash
+
+startserverless:
+	cd Serverless/company && npm install
+	cd Serverless && sam local start-api
