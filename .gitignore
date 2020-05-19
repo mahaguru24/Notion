@@ -24,3 +24,4 @@ yarn-error.log*
 vendor
 cache
 backend/storage/framework/cache
+backend/storage/
